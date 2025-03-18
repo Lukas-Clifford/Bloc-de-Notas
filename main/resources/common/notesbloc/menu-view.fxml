@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="common.notesbloc.MenuController"
+            alignment="CENTER"
+            stylesheets="@styles.css">
+
+    <Label  text="NOTAS"/>
+    <Button text="New note" onAction="#newNote"/>
+    <TilePane fx:id="notesButtons" alignment="CENTER"/>
+
+</VBox>

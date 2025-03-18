@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="common.notesbloc.EditorController"
+            alignment="CENTER"
+            stylesheets="@styles.css">
+
+    <Label text="EDITOR"/>
+    <HBox><Button text="back" onAction="#goToMenu"/>
+        <Button text="save" onAction="#saveCurrentNote"/>
+        <Button text="delete" onAction="#deleteCurrentNote"/>
+    </HBox>
+
+
+    <TextField fx:id="noteTitle" text="New note" />
+    <TextArea fx:id="textArea" />
+
+
+</VBox>
